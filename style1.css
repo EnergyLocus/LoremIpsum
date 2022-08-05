@@ -17,26 +17,6 @@ h3
   text-align: center;
 }
 
-.lorem-form 
-{
-  text-transform: capitalize;
-  letter-spacing: 0.25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.paraAmountNum
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-label
-{
-  color: hsl(205, 86%, 17%);
-}
-
 input 
 {
   padding: 0.25rem 0.5rem;
@@ -70,9 +50,12 @@ input
   background: #222;
 }
 
+label 
+{
+  color: hsl(205, 86%, 17%);
+}
+
 @media screen and (max-width: 450px)
 {
-	h3, .lorem-form { letter-spacing: 0.20rem;}
-	.lorem-form {display:block; text-align:center; }
-}
+	h3 { letter-spacing: 0.20rem;}
 }
